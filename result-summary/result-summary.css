@@ -1,0 +1,238 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.box {
+  width: 550px;
+  height: 400px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 30px hsl(221, 100%, 96%);
+  border-radius: 25px;
+  display:flex;
+  flex-direction: row;
+}
+
+.blue-box {
+  width: 275px;
+  height: 400px;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.font-1 {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.font-2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  font-size: 30px;
+  height: 56px;
+}
+
+.font-2 h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.font-3{
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 500;
+  font-size: 12.5px;
+}
+
+.font-4 {
+  color: hsl(0, 0%, 100%);
+
+}
+
+.font-5 {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.font-5 p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.inivisibox {
+  width: 275px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.font-6 {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+
+.font-6 p {
+  margin-bottom: 20px;
+}
+
+.Reaction {
+  width: 220px;
+  height: 40px;
+  background-color: hsla(0, 100%, 67%, 0.1);
+  margin-left: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Reaction img {
+  margin: 12px; 
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.R-text-1 {
+  color: hsl(0, 100%, 67%);
+  margin-right: 60px;
+  width: 54.712px;
+}
+.R-text-2 {
+  color: hsl(0, 0%, 60%);
+  margin-left: 2px;
+}
+
+.Memory {
+  width: 220px;
+  height: 40px;
+  background-color: hsla(39, 100%, 56%, 0.1);
+  margin-left: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Memory img {
+  margin: 12px; 
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.M-text-1 {
+  color: hsl(39, 100%, 56%);
+  margin-right: 60px;
+  width: 54.712px;
+}
+.M-text-2 {
+  color: hsl(0, 0%, 60%);
+  margin-left: 2px;
+}
+
+.Verbal {
+  width: 220px;
+  height: 40px;
+  background-color: hsla(166, 100%, 37%, 0.1);
+  margin-left: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Verbal img {
+  margin: 12px; 
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.Ve-text-1 {
+  color: hsl(166, 100%, 37%);
+  margin-right: 60px;
+  width: 54.712px;
+}
+.Ve-text-2 {
+  color: hsl(0, 0%, 60%);
+  margin-left: 2px;
+}
+
+.Visual {
+  width: 220px;
+  height: 40px;
+  background-color: hsla(234, 85%, 45%, 0.1);
+  margin-left: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Visual img {
+  margin: 12px; 
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.Vi-text-1 {
+  color: hsl(234, 85%, 45%);
+  margin-right: 60px;
+  width: 54.712px;
+}
+.Vi-text-2 {
+  color: hsl(0, 0%, 60%);
+  margin-left: 2px;
+}
+
+.Continue {
+  width: 220px;
+  height: 40px;
+  background-color: hsl(224, 30%, 27%);
+  margin-left: 25px;
+  margin-top: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+}
+
+.Continue:hover {
+  background-color: hsl(241, 81%, 54%);
+}
